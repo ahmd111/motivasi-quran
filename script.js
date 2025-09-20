@@ -547,23 +547,76 @@ const professions = [
         ],
         explanation: "Seni dan budaya adalah ekspresi kreativitas manusia yang dapat digunakan untuk menyampaikan pesan moral dan nilai-nilai kebaikan. Islam menghargai seni yang tidak bertentangan dengan syariat.",
         quote: "Setiap anak Adam adalah seniman, dan Allah adalah seniman yang paling hebat.",
-        quotePerson: "Rumi",
+        quotePerson: "Jalaluddin Rumi",
         quote2: "Allah itu Indah dan menyukai keindahan.",
         quotePerson2: "HR. Muslim"
+    },
+    {
+        id: 23,
+        title: "pematung digital & 3D artist",
+        category: "seni budaya",
+        icon: "fa-cube",
+        verses: [
+            {
+                text: "Dan engkau melihat gunung-gunung, yang engkau kira tetap di tempatnya, padahal ia berlalu seperti awan berlalu. (Itulah) ciptaan Allah yang mencipta dengan sempurna segala sesuatu. Sungguh, Dia Maha Teliti terhadap apa yang kamu kerjakan.",
+                reference: "QS. An-Naml (27): 88",
+            },
+            {
+                text: "(Yaitu) orang-orang yang mengingat Allah sambil berdiri, duduk, atau dalam keadaan berbaring, dan mereka memikirkan tentang penciptaan langit dan bumi (seraya berkata), 'Ya Tuhan kami, tidaklah Engkau menciptakan semua ini sia-sia; Maha Suci Engkau, lindungilah kami dari azab neraka.'",
+                reference: "QS. Ali Imran (3): 191",
+
+            },
+            {
+                text: " Dan bersabarlah terhadap apa yang menimpamu, sesungguhnya yang demikian itu termasuk perkara yang penting",
+                reference: "QS. Luqman (31): 17",
+            },
+        ],
+        explanation: "Seni dan budaya adalah ekspresi kreativitas manusia yang dapat digunakan untuk menyampaikan pesan moral dan nilai-nilai kebaikan. Islam menghargai seni yang tidak bertentangan dengan syariat.",
+        quote: "Sesungguhnya ilmu didapat dengan belajar, dan sifat santun didapat dengan berlatih bersikap santun.",
+        quotePerson: "Imam As-Syafi'i",
+        quote2: "Sesungguhnya amal yang paling dicintai Allah adalah yang paling konsisten (terus-menerus) dilakukan, meskipun sedikit.",
+        quotePerson2: "HR. Bukhari & Muslim"
+    },
+    
+    {
+
+        id: 24,
+        title: "Pemandu Wisata & Travel Blogger",
+        category: "pariwisata",
+        icon: "fa-route",
+        verses: [
+            {
+                text: "Katakanlah, 'Perjalanan di muka bumi ini akan membawa kamu kepada Allah yang Maha Kuasa atas segala sesuatu.'",
+                reference: "QS. Al-Ankabut (29): 20",
+            },
+            {
+                text: "Dan (ingatlah) ketika Tuhanmu berfirman kepada para malaikat, 'Sesungguhnya Aku akan menciptakan manusia dari tanah liat kering yang berasal dari lumpur hitam yang diberi bentuk.'",
+                reference: "QS. Al-Hijr (15): 28",
+            },
+        ],
+        explanation: "Menjelajahi dan memperkenalkan keindahan ciptaan Allah di berbagai tempat adalah cara untuk mensyukuri nikmat-Nya. Pemandu wisata dan travel blogger dapat menyebarkan nilai-nilai kebaikan melalui pengalaman mereka.",
+        quote: "Perjalanan adalah guru terbaik yang mengajarkan kita tentang kehidupan dan kebesaran ciptaan Allah.",
+        quotePerson: "Ibn Battuta",
+        quote2: "Pergilah jauh (mengembara), niscaya kau akan dapatkan pengganti dari yang kau tinggalkan. Dan sibuklah, niscaya kau dapatkan pengganti dari yang tidak bisa kau dapatkan.",
+        quotePerson2: "Ali bin Abi Thalib",
+        quote3: "Bangunlah, jalanilah perjalanan! Karena dalam perjalanan, langit menceritakan rahasianya, dan dunia melemparkan permata-permatanya.",
+        quotePerson3: "Jalaluddin Rumi",
+
     }
-];
 
-// Fungsi untuk menampilkan notifikasi
-function showNotification(message) {
-    const notification = document.getElementById('notification');
-    const notificationText = document.getElementById('notificationText');
+        ];
 
-    notificationText.textContent = message;
-    notification.classList.add('show');
+        // Fungsi untuk menampilkan notifikasi
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            const notificationText = document.getElementById('notificationText');
 
-    setTimeout(() => {
-        notification.classList.remove('show');
-    }, 3000);
+            notificationText.textContent = message;
+            notification.classList.add('show');
+
+            setTimeout(() => {
+    notification.classList.remove('show');
+}, 3000);
 }
 
 // Fungsi untuk menampilkan profesi
